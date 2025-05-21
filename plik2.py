@@ -21,7 +21,10 @@ napis1 = f"{imie1:10} {nazwisko1:15} {stanowisko1:11} {staż1:^5.0f} {stawka1:>2
 napis2 = f"{imie2:10} {nazwisko2:15} {stanowisko2:11} {staż2:^5.0f} {stawka2:>24.20f}"
 napis3 = f"{imie3:10} {nazwisko3:15} {stanowisko3:11} {staż3:^5.0f} {stawka3:>24.20f}"
 
-print(nagłówek)
-print(napis1)
-print(napis2)
-print(napis3)
+print(f"""
+    {nagłówek}
+    {napis1}
+    {napis2}
+    {napis3}""")
+
+#Można słownik: osoba ={nazwisko:"ktoś", imie:"ktosiowy"}
